@@ -12,7 +12,7 @@ If there are multiple modals in your application ( in different components or sa
 
 ## Setup
 
-This library is available on npm, install it with: `npm i @neiderruiz/react-native-modal`
+This library is available on npm, install it with: `npm i @neidercode/react-native-modal`
 
 ## Usage
 
@@ -21,7 +21,7 @@ This library is available on npm, install it with: `npm i @neiderruiz/react-nati
 1. Import react-native-modal:
 
 ```javascript
-import Modal from "@neiderruiz/react-native-modal";
+import Modal from "@neidercode/react-native-modal";
 ```
 
 2. Simply show/hide the modal by changing the `isVisible` prop to true/false.
@@ -55,7 +55,7 @@ The state of these modals are controlled by `modal1` `modal2` `modal3` values.
 ```javascript
 import React, { Component } from "react";
 import { View, Text } from "react-native";
-import Modal from "@neiderruiz/react-native-modal";
+import Modal from "@neidercode/react-native-modal";
 
 export default class ModalTester extends Component {
   state = {
